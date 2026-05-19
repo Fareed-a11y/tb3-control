@@ -1,22 +1,3 @@
-# TurtleBot3 Control Package (ROS Noetic)
-
-This package provides simple Python scripts to control a TurtleBot3 in Gazebo using ROS Noetic.
-
-Features:
-
-* Move forward and stop
-* Rotate in place
-* Interactive keyboard command controller
-
-Tested on:
-
-* Ubuntu 20.04
-* ROS Noetic
-* TurtleBot3 Burger
-* Gazebo
-
----
-
 # 1. Install Required Packages
 
 Install TurtleBot3 packages:
@@ -228,9 +209,8 @@ Then restart from Terminal 1.
 ```text
 tb3_control/
 ├── scripts/
-│   ├── move_stop.py
 │   ├── move_rotate.py
-│   └── tb3_keyboard_control.py
+│   └── keyboard_control.py
 ├── CMakeLists.txt
 ├── package.xml
 ├── .gitignore
