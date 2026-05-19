@@ -128,20 +128,6 @@ Enter command: move
 
 ---
 
-## Move and Stop Script
-
-Run:
-
-```bash
-rosrun tb3_control move_stop.py
-```
-
-This script:
-
-* moves the robot forward
-* stops automatically
-
----
 
 ## Move and Rotate Script
 
